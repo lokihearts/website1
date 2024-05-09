@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Single Page Website</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>  
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Our Services</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="reviewindex.html">Reviews</a></li>
+      
+    </ul>
+  </nav>
+  <div class="background"></div>
+  <div class="content">
+
+    <section id="home">
+        <h1>Botanique </h1>
+        <h2>Blooms & Bouquets</h2>
+    </section>
+      
+      
+    <section id="about">
+      <h2>Botanique </h2>
+      <p>Certainly! Here's a sample message for the "About Us" section of a flower shop:
+
+        ---
+        
+        Welcome to [Shop Name], your premier destination for exquisite floral arrangements and personalized floral services. At [Shop Name], we are passionate about flowers and committed to bringing the beauty of nature into your life through our stunning floral creations.
+        
+        With over [number of years] years of experience in the floral industry, our talented team of florists combines creativity, craftsmanship, and attention to detail to design captivating floral arrangements for every occasion. Whether you're celebrating a milestone event, expressing your love and appreciation, or simply adding a touch of elegance to your space, we have the perfect arrangement for you.
+        
+        Our dedication to quality extends beyond our products to our customer service. We strive to provide a seamless and enjoyable shopping experience, from browsing our wide selection of fresh flowers to receiving your personalized arrangement with care and promptness.
+        
+        As a locally owned and operated flower shop, we take pride in being part of the community and serving our customers with warmth and sincerity. We cherish the relationships we build with each of our clients and are honored to be a part of your special moments.
+        
+        Thank you for choosing [Shop Name] for all your floral needs. We look forward to helping you create unforgettable memories with our beautiful blooms.
+        
+        ---
+        
+        Feel free to customize this message to better fit the unique identity and values of your flower shop!</p>
+    </section>
+
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="options">
+            <button onclick="window.location.href='wedding.html'" class="option">Weddings</button>
+            <button onclick="window.location.href='parties.html'" class="option">Parties</button>
+            <button onclick="window.location.href='personal_picks.html'" class="option">Personal Picks</button>
+        </div>
+    </section>
+    
+
+     <!---- <section id="creations">
+        <h2>Our Creations</h2>
+        <div class="creation-container">
+          <div class="creation-item">
+            <img src="pexels-tanya-gorelova-2199357-3933957.jpg" alt="Image 1">
+          </div>
+          <div class="creation-item">
+            <img src="pexels-zvolskiy-4108277.jpg" alt="Image 2">
+          </div>
+          <div class="creation-item">
+            <img src="pexels-secret-garden-333350-931180.jpg" alt="Image 3">
+          </div>
+        </div>
+      </section>
+    ----->
+      
+      
+      
+      <section id="contact">
+        <div class="contact-details">
+          <h2>Contact Us</h2>
+          <p>Shop Timings: [Timings]</p>
+          <p>Address: [Shop Address]</p>
+          <p>Owner: [Owner Name]</p>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" action="connect.php" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address">
+            </div>
+            <div class="form-group">
+              <label for="event">Select Event:</label>
+              <input type="text" id="event" name="event">
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+          <p class="follow-instagram">Follow us on <a href="https://www.instagram.com/your_account" target="_blank">Instagram</a></p>
+        </div>
+      </section>
+      
+      
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

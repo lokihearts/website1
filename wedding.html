@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weddings</title>
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  /* Custom CSS for the pictures */
+  .picture-item {
+    margin: 20px; /* Adjust the margin between the pictures */
+    overflow: hidden;
+    border: 5px solid white; /* Add a white border */
+    padding: 10px; /* Add padding between picture and border */
+    transition: transform 0.3s ease;
+  }
+
+  .picture-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .picture-item:hover {
+    transform: scale(1.1); /* Scale up the picture on hover */
+  }
+
+  /* Background CSS */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(10px); /* Adjust blur amount */
+    background-image: url('pexels-karolina-grabowska-7291997.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Fix background image while scrolling */
+  }
+</style>
+</head>
+<body>
+
+  <!-- Background image -->
+  <div class="background"></div>
+
+  <!-- Heading for the page -->
+  <h1 class="text-center">Weddings</h1>
+
+  <!-- Picture container using Bootstrap grid system -->
+  <div class="container">
+    <div class="row">
+      <!-- First picture -->
+      <div class="col-md-6">
+        <div class="picture-item">
+          <img src="pexels-jonathanborba-6544768.jpg" alt="Picture 1">
+        </div>
+      </div>
+      <!-- Second picture -->
+      <div class="col-md-6">
+        <div class="picture-item">
+          <p>
+            The Flower Bowl prides itself on always delivering the freshest of flowers and unique designs. Stocking our shop with flowers from the San Francisco flower mart 2 to 3 times weekly. Our staff of talented designers have all been in the field for many years. We specialize in garden style and offer everything from classic to moderns designs. We take joy in finding greens with textures and special flowers to create each arrangement made to order with a personal touch. With that said, keep in mind the content of your arrangement will depend</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Third picture -->
+      <div class="col-md-6">
+        <div class="picture-item">
+         <p>
+            The Flower Bowl prides itself on always delivering the freshest of flowers and unique designs. Stocking our shop with flowers from the San Francisco flower mart 2 to 3 times weekly. Our staff of talented designers have all been in the field for many years. We specialize in garden style and offer everything from classic to moderns designs. We take joy in finding greens with textures and special flowers to create each arrangement made to order with a personal touch. With that said, keep in mind the content of your arrangement will depend</p>
+        </div>
+      </div>
+      <!-- Fourth picture -->
+      <div class="col-md-6">
+        <div class="picture-item">
+          <img src="pexels-jeremy-wong-382920-1061744.jpg" alt="Picture 4">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <!-- First picture -->
+        <div class="col-md-6">
+          <div class="picture-item">
+            <img src="pexels-secret-garden-333350-931179.jpg" alt="Picture 1">
+          </div>
+        </div>
+        <!-- Second picture -->
+        <div class="col-md-6">
+          <div class="picture-item">
+            <p>
+              The Flower Bowl prides itself on always delivering the freshest of flowers and unique designs. Stocking our shop with flowers from the San Francisco flower mart 2 to 3 times weekly. Our staff of talented designers have all been in the field for many years. We specialize in garden style and offer everything from classic to moderns designs. We take joy in finding greens with textures and special flowers to create each arrangement made to order with a personal touch. With that said, keep in mind the content of your arrangement will depend</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
